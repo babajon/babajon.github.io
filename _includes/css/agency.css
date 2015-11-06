@@ -589,6 +589,7 @@ section h3.section-subheading {
         font-weight: 700;
         line-height: 75px;
         color: #333;
+        text-align: right;
 
     }
 }
