@@ -268,6 +268,25 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+    .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 30px;
+        font-style: italic;
+        line-height: 40px;
+        color: #333333;
+    }
+
+    .intro-text .intro-heading {
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 75px;
+        color: #333;
+
+    }
 }
 
 header {
@@ -327,7 +346,7 @@ header .intro-text .intro-heading {
         font-size: 24px;
         font-weight: 700;
         line-height: 75px;
-        color: #333333;
+        color: #333;
 
     }
 }
@@ -552,8 +571,29 @@ section h3.section-subheading {
 .timeline .timeline-body>ul {
     margin-bottom: 0;
 }
+@media(max-width:480px) {
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+        color: #333;
+    }
 
-@media(min-width:768px) {
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 75px;
+        color: #333;
+
+    }
+}
+
+@media(min-width:750px) {
     .timeline:before {
         left: 50%;
     }
@@ -588,6 +628,7 @@ section h3.section-subheading {
         padding: 0 30px 20px 20px;
         text-align: left;
     }
+
 }
 
 @media(min-width:992px) {
@@ -614,6 +655,7 @@ section h3.section-subheading {
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 20px 20px;
     }
+
 }
 
 @media(min-width:1200px) {
@@ -639,7 +681,27 @@ section h3.section-subheading {
         padding: 0 100px 20px 20px;
     }
 }
+@media(min-width:10){
+       header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 10px;
+        font-style: italic;
+        line-height: 40px;
+        color: #333;
+    }
 
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 75px;
+        color: #333;
+
+    }
+}
 .team-member {
     margin-bottom: 50px;
     text-align: center;
