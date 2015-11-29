@@ -2,6 +2,23 @@
 #baseurl: /agency-jekyll-theme/
 
 # Site settings
+
+#glynn ftp settings
+markdown: rdiscount
+pygments: true
+auto: true
+
+ftp_host: 'ftp.domeneshop.no'
+ftp_dir: '/www'
+ftp_passive: false
+
+# optional
+ftp_port: 21                  # default 21
+ftp_username: 'irfansharifmirza'     # default read from stdin
+ftp_password: '6YH@a&fN' # default read from stdin
+ftp_secure: true              # default false
+
+
 title: Irfan Mirza
 email: your-email@domain.com
 #description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
