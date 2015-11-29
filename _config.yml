@@ -12,6 +12,7 @@ ftp_host: 'ftp.domeneshop.no'
 ftp_dir: '/www'
 ftp_passive: false
 
+
 # optional
 ftp_port: 21                  # default 21
 ftp_username: 'irfansharifmirza'     # default read from stdin
@@ -21,6 +22,7 @@ ftp_secure: true              # default false
 
 title: Irfan Mirza
 email: your-email@domain.com
+language_default : 'no'
 #description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 description: "Irfan Mirza eiendomsmegler hos DNB Eindom Rodeløkka"
 # Color settings (hex-codes without the leading hash-tag)
@@ -36,30 +38,30 @@ people:
   pic: 1
   position: Eiendomsmegler
   social:
-    - title: twitter
+    - title: 
       url: #
-    - title: facebook
+    - title: 
       url: #
-    - title: stack-overflow
+    - title: 
       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
+  - title: 
+    url: 
+  - title: 
     url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+  - title: 
+    url: 
+  - title:  
+    url: 
+  - title: 
+    url: 
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Trondheimsveien 72
+  - line: 0565, Oslo
 
 # Build settings
 markdown: kramdown
